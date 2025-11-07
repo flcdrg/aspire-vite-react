@@ -2,4 +2,4 @@
 
 Example Vite/React web app with .NET Aspire
 
-The web app uses the `pnpm` package manager.
+Includes two web apps, one using the `pnpm` package manager and the other using the `npm` package manager.
