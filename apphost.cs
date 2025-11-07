@@ -14,7 +14,7 @@ builder.AddViteApp("vite-npm", "vite-npm-project")
     .WithEnvironment("PATH", Environment.GetEnvironmentVariable("PATH") + ";" + Environment.ExpandEnvironmentVariables("%USERPROFILE%\\AppData\\Roaming\\fnm\\aliases\\default"))
     .WithExternalHttpEndpoints();
 
-builder.AddViteApp("vite-yarn", "vite-yarn-project")
+builder.AddViteApp("vite-yarn", "vite-yarn1-project")
     .WithYarn()
     .WithEnvironment("PATH", Environment.GetEnvironmentVariable("PATH") + ";" + Environment.ExpandEnvironmentVariables("%USERPROFILE%\\AppData\\Roaming\\fnm\\aliases\\default"))
     .WithExternalHttpEndpoints();
